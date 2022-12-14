@@ -9,3 +9,9 @@
   color: #FFFFFF;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    width: 288px;
+  }
+}
