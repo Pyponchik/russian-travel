@@ -1,0 +1,13 @@
+.header__lang-link {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  right: 0;
+  bottom: 6px;
+}
