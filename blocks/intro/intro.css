@@ -1,0 +1,15 @@
+.intro {
+  margin-top: 114px;
+  margin-bottom: 92px;
+  width: 690px;
+  align-self: flex-start;
+  margin-left: 11.5%;
+}
+
+@media screen and  (max-width: 780px) {
+  .intro {
+    width: 95%;
+    align-self: center;
+    margin-left: 0;
+  }
+}

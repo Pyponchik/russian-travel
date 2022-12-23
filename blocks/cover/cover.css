@@ -1,0 +1,12 @@
+.cover {
+  width: 92.5%;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+  }
+}
