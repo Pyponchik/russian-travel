@@ -19,7 +19,7 @@
 @media screen and (max-width: 767px) {
   .place__website {
     margin-bottom: 32px;
-    width: 90%;
+    width: 288px;
     margin-left: 0;
     align-self:center;
   }

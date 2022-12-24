@@ -2,9 +2,8 @@
   display: flex;
   width: 92.5%;
   margin-bottom: 24px;
-  position: relative;
-  z-index: 9;
   margin-top: 90px;
+  justify-content: space-between;
 }
 
 @media screen and  (max-width: 767px) {

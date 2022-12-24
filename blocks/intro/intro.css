@@ -1,15 +1,28 @@
 .intro {
-  margin-top: 114px;
+  margin-top: 92px;
   margin-bottom: 92px;
-  width: 690px;
-  align-self: flex-start;
-  margin-left: 11.5%;
+  width: 984px;
 }
 
-@media screen and  (max-width: 780px) {
+@media screen and  (max-width: 1279px) {
   .intro {
-    width: 95%;
+    width: 928px;
+  }
+}
+
+@media screen and  (max-width: 1023px) {
+  .intro {
     align-self: center;
-    margin-left: 0;
+    width: 720px;
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and  (max-width: 767px) {
+  .intro {
+    margin-bottom: 64px;
+    width: 90%;
+    align-self: center;
   }
 }
