@@ -1,6 +1,12 @@
 .header__box {
   display: flex;
-  width: 77px;
+  width: 78px;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+@media screen and  (max-width: 767px) {
+  .header__box {
+    width: 68px;
+  }
 }

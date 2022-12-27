@@ -24,12 +24,19 @@
     margin-top: 115px;
   }
 }
-
+/* 33px*/
 @media screen and (max-width: 767px) {
   .cover__title {
-    margin-top: 33px;
+    margin-top: 93px;
     width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .cover__title {
+    margin-top: 33px;
+  }
+}
+

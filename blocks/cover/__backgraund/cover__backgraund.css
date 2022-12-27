@@ -1,23 +1,31 @@
 .cover__backgraund {
-  width: 100%;
-  margin-top: calc(-217px - 245px - 32px);
-  z-index: -2;
+  max-width: 100%;
+  min-height: 740px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../image/cover/__background.png);
 }
 
 @media screen and (max-width: 1279px) {
   .cover__backgraund {
-    margin-top: calc(-218px - 195px - 32px);
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__backgraund {
-    margin-top: calc(-218px - 115px - 32px);
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__backgraund {
-    margin-top: -167px;
+    min-height: 330px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover__backgraund {
+    min-height: 200px;
   }
 }
