@@ -8,12 +8,14 @@
   text-decoration: none;
   color: #FFFFFF;
   margin-bottom: 8px;
-  width: 30px;
+  max-width: 30px;
+  width: 100%;
 }
 
 @media screen and  (max-width: 767px) {
   .header__lang-link {
-    width: 22px;
+    max-width: 22px;
+    width: 100%;
     font-size: 18px;
     line-height: 20px;
   }
